@@ -1,0 +1,38 @@
+
+.video-banner {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.video-player {
+    position: absolute;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.title {
+    position: relative;
+    z-index: 999;
+    
+    
+}
+
+.title h1,
+.title p {
+    
+    background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.start-btn {
+    position: relative;
+}
+
+.about-us {
+    position: relative;
+    z-index: 1;
+    /* Ensure the about-us section is above the video */
+}

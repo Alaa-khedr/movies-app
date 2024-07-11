@@ -1,0 +1,10 @@
+/* styles.css or your existing CSS file */
+.img-hover-effect {
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+}
+
+.img-hover-effect:hover {
+    transform: scale(1.05);
+    /* Scale up the image to 105% of its size */
+}
